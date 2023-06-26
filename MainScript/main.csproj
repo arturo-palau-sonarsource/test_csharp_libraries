@@ -5,8 +5,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\lib1\lib1.csproj" />
-    <ProjectReference Include="..\lib2\lib2.csproj" />
+    <ProjectReference Include="..\lib1\Library1.csproj" />
+    <ProjectReference Include="..\lib2\Library2.csproj" />
   </ItemGroup>
 
 </Project>
