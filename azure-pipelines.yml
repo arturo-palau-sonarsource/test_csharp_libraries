@@ -21,6 +21,8 @@ jobs:
     # Command Line task to run your build.
   # Dotnet build task
   - task: DotNetCoreCLI@2
+    inputs:
+      command: 'build'
     displayName: 'dotnet build'
   - task: SonarQubeAnalyze@5
   - task: SonarQubePublish@5
