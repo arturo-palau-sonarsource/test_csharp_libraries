@@ -1,5 +1,5 @@
-using lib1;
-using lib2;
+using Library1;
+using Library2;
 using System;
 
 namespace MainScript
