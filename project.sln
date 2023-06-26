@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 15.0.28307.756
 MinimumVisualStudioVersion = 10.0.40219.1
 
-Project("{{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}}") = "MainScript", "MainScript\MainScript.csproj", "{{d8ead6d4-fdbd-49bd-9ffc-ecc1d7702f28}}"
+Project("{{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}}") = "MainScript", "MainScript\main.csproj", "{{d8ead6d4-fdbd-49bd-9ffc-ecc1d7702f28}}"
 EndProject
 
 Project("{{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}}") = "lib1", "lib1\lib1.csproj", "{{44fd5baa-5206-41e2-b8ff-1da85dddd168}}"
