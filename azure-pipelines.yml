@@ -15,9 +15,9 @@ jobs:
       extraProperties: |
         sonar.verbose=true
   - task: DotNetCoreCLI@2
-  inputs:
-    command: 'restore'
-    projects: '**/*.csproj' # Adjust this pattern to match your project file
+    inputs:
+      command: 'restore'
+      projects: '**/*.csproj' # Adjust this pattern to match your project file
     # Command Line task to run your build.
   # Dotnet build task
   - task: DotNetCoreCLI@2
