@@ -1,0 +1,23 @@
+jobs:
+- job: BuildWindowsWithSonarQube
+  displayName: Build for Windows\MSBuild With SonarQube
+  pool:
+    vmImage: 'windows-latest'
+  variables:
+    SONARQUBE_HOST_URL: https://123f879aa96b.ngrok.app
+  - task: SonarQubePrepare@5
+    inputs:
+      SonarQube: 'sq99' # Name of the SonarQube service endpoint you created
+      scannerMode: 'MSBuild'
+      #configMode: 'file'
+      projectKey: 'test_csharp_libraries1'
+      extraProperties: |
+        sonar.verbose=true
+  #- script: nuget restore CPlusPlusAndCSharp.sln
+  #  displayName: 'Restore NuGet packages'
+    # Command Line task to run your build.
+  # Dotnet build task
+    - task: DotNetCoreCLI@2
+    displayName: 'dotnet build'
+  - task: SonarQubeAnalyze@5
+  - task: SonarQubePublish@5
