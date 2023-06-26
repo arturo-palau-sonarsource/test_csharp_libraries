@@ -1,0 +1,39 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.756
+MinimumVisualStudioVersion = 10.0.40219.1
+
+Project("{{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}}") = "MainScript", "MainScript\MainScript.csproj", "{{d8ead6d4-fdbd-49bd-9ffc-ecc1d7702f28}}"
+EndProject
+
+Project("{{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}}") = "Library1", "Library1\Library1.csproj", "{{44fd5baa-5206-41e2-b8ff-1da85dddd168}}"
+EndProject
+
+Project("{{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}}") = "Library2", "Library2\Library2.csproj", "{{678abde4-df76-41e5-999d-1dae18a98584}}"
+EndProject
+
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{{d8ead6d4-fdbd-49bd-9ffc-ecc1d7702f28}}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{{d8ead6d4-fdbd-49bd-9ffc-ecc1d7702f28}}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{{d8ead6d4-fdbd-49bd-9ffc-ecc1d7702f28}}.Release|Any CPU.ActiveCfg = Release|Any CPU
+			{{d8ead6d4-fdbd-49bd-9ffc-ecc1d7702f28}}.Release|Any CPU.Build.0 = Release|Any CPU
+		{{44fd5baa-5206-41e2-b8ff-1da85dddd168}}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+			{{44fd5baa-5206-41e2-b8ff-1da85dddd168}}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{{44fd5baa-5206-41e2-b8ff-1da85dddd168}}.Release|Any CPU.ActiveCfg = Release|Any CPU
+			{{44fd5baa-5206-41e2-b8ff-1da85dddd168}}.Release|Any CPU.Build.0 = Release|Any CPU
+		{{678abde4-df76-41e5-999d-1dae18a98584}}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+			{{678abde4-df76-41e5-999d-1dae18a98584}}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{{678abde4-df76-41e5-999d-1dae18a98584}}.Release|Any CPU.ActiveCfg = Release|Any CPU
+			{{678abde4-df76-41e5-999d-1dae18a98584}}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {{69218ee6-58b3-4640-9573-2aab356abe7d}}
+	EndGlobalSection
+EndGlobal
