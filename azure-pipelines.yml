@@ -14,8 +14,10 @@ jobs:
       projectKey: 'test_csharp_libraries1'
       extraProperties: |
         sonar.verbose=true
-  - script: nuget restore project.sln
-    displayName: 'Restore NuGet packages'
+  - task: DotNetCoreCLI@2
+  inputs:
+    command: 'restore'
+    projects: '**/*.csproj' # Adjust this pattern to match your project file
     # Command Line task to run your build.
   # Dotnet build task
   - task: DotNetCoreCLI@2
