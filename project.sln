@@ -6,10 +6,10 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}}") = "MainScript", "MainScript\main.csproj", "{{d8ead6d4-fdbd-49bd-9ffc-ecc1d7702f28}}"
 EndProject
 
-Project("{{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}}") = "lib1", "lib1\lib1.csproj", "{{44fd5baa-5206-41e2-b8ff-1da85dddd168}}"
+Project("{{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}}") = "Library1", "lib1\lib1.csproj", "{{44fd5baa-5206-41e2-b8ff-1da85dddd168}}"
 EndProject
 
-Project("{{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}}") = "lib2", "lib2\lib2.csproj", "{{678abde4-df76-41e5-999d-1dae18a98584}}"
+Project("{{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}}") = "Library2", "lib2\lib2.csproj", "{{678abde4-df76-41e5-999d-1dae18a98584}}"
 EndProject
 
 Global
