@@ -18,12 +18,14 @@ jobs:
     inputs:
       command: 'restore'
       projects: 'project.sln' # Adjust this pattern to match your project file
+    workingDirectory: .
     # Command Line task to run your build.
   # Dotnet build task
   - task: DotNetCoreCLI@2
     inputs:
       command: 'build'
       projects: 'project.sln'
+    workingDirectory: .
     displayName: 'dotnet build'
   - task: SonarQubeAnalyze@5
   - task: SonarQubePublish@5
