@@ -7,7 +7,7 @@ jobs:
     SONARQUBE_HOST_URL: https://123f879aa96b.ngrok.app
   - task: SonarQubePrepare@5
     inputs:
-      SonarQube: 'sq99' # Name of the SonarQube service endpoint you created
+      SonarQube: 'SQ99' # Name of the SonarQube service endpoint you created
       scannerMode: 'MSBuild'
       #configMode: 'file'
       projectKey: 'test_csharp_libraries1'
