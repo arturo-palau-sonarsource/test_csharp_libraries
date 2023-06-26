@@ -23,6 +23,7 @@ jobs:
   - task: DotNetCoreCLI@2
     inputs:
       command: 'build'
+      projects: 'project.sln'
     displayName: 'dotnet build'
   - task: SonarQubeAnalyze@5
   - task: SonarQubePublish@5
