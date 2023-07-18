@@ -33,5 +33,5 @@ jobs:
           dotnet-version: '3.1.x'
       - run: dotnet tool install --global dotnet-sonarscanner
       - run: dotnet sonarscanner begin /k:"test-csharp_github" /d:sonar.login="${{ env.SONAR_TOKEN }}"
-      - run: dotnet build <path to project file or .sln file>
+      - run: dotnet build project.sln
       - run: dotnet sonarscanner end /d:sonar.login="${{ env.SONAR_TOKEN }}"
